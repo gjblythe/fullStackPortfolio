@@ -1,0 +1,22 @@
+<div id="project">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <h1>{{msg}}</h1>
+                <div class="row">
+                    {{#each examples}}
+                    <div class="col-sm" id="project">
+                        <br>
+                        <h1>{{this.title}}</h1>
+                        <div id="banner">
+                            <a id="test" href="{{this.href}}">{{this.title}} <i class="fab fa-github"></i></a>
+                        </div>
+                        <p>{{this.description}}</p>
+                        <img src="{{this.image}}">
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+/* style main view */
+body {
+  font-family: 'Voces', cursive;
+}
+
+.nav{
+  background: grey;
+  height: 50px;
+}
+.nav-link {
+  color: white;
+}
+a:hover {
+  color: black;
+}
+
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+#row {
+  padding: 10px 0px 10px 0px;
+}
+
+#banner{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  background: #ffffff;
+}
+#test{
+  color: black;
+}
+
+#test:hover{
+  color: grey;
+}
+
+#project{
+  position: relative;
+}
+
+img:hover {
+ opacity: 0.5;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+#about{
+  font-size: 20px;
+}
