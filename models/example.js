@@ -3,7 +3,9 @@ module.exports = function(sequelize, DataTypes) {
     title: DataTypes.STRING,
     href: DataTypes.STRING,
     description: DataTypes.TEXT,
-    image: DataTypes.TEXT
+    image: DataTypes.TEXT,
+    // repo added to model
+    repo: DataTypes.TEXT
   });
   return LinkToExample;
 };

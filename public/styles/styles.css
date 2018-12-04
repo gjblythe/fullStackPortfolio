@@ -1,6 +1,29 @@
 /* style main view */
 body {
   font-family: 'Voces', cursive;
+  /* background-size: cover; */
+  background: 
+    linear-gradient(135deg, transparent 24%, #bbb 24%, #bbb 25%, transparent 25%)3.88em 1.29em,
+    linear-gradient(135deg, transparent 24%, #bbb 24%, #bbb 25%, transparent 25%)1.25em 1.25em,
+   linear-gradient(225deg, #bbb 0%, #bbb 1.6%, #ddd 1.5%, #ddd 24%, #bbb 24%, #bbb 25%, transparent 25%)0 2.5em,
+   linear-gradient(45deg, #bbb 0%, #bbb 1.6%, #ddd 1.5%, #ddd 24%, #bbb 24%, #bbb 25%, transparent 25%)2.5em 2.5em,
+    linear-gradient(135deg, #bbb 0%, #bbb 1.6%, #ddd 1.5%, #ddd 24%, #bbb 24%, #bbb 25%, transparent 25%)0 2.5em,
+    linear-gradient(-45deg, #bbb 0%, #bbb 1.6%, #ddd 1.5%, #ddd 24%, #bbb 24%, #bbb 25%, transparent 25%)2.5em 2.5em,
+   linear-gradient(45deg, #bbb 0%, #bbb 1.6%, #ddd 1.5%, #ddd 24%, #bbb 24%, #bbb 25%, transparent 25%),
+   linear-gradient(225deg, #bbb 0%, #bbb 1.5%, #ddd 1.5%, #ddd 24%, #bbb 24%, #bbb 25%, transparent 25%)2.5em 0,
+    linear-gradient(transparent 0%, transparent 8%, #ccc 8%, #ccc 10%, 
+transparent 10%, transparent 18%, #ccc 18%, #ccc 20%, 
+transparent 20%, transparent 28%, #ccc 28%, #ccc 30%, 
+transparent 30%, transparent 38%, #ccc 38%, #ccc 40%, 
+transparent 40%, transparent 48%, #ccc 48%, #ccc 50%, 
+transparent 50%, transparent 58%, #ccc 58%, #ccc 60%, 
+transparent 60%, transparent 68%, #ccc 68%, #ccc 70%, 
+transparent 70%, transparent 78%, #ccc 78%, #ccc 80%, 
+transparent 80%, transparent 88%, #ccc 88%, #ccc 90%, 
+transparent 90%, transparent 98%, #ccc 98%, #ccc 100%)
+     ;
+  background-color: #ddd;
+  background-size: 5em 5em;
 }
 
 .nav{
@@ -14,6 +37,9 @@ a:hover {
   color: black;
 }
 
+p{
+  font-size: 18px;
+}
 
 .list-group-item {
   line-height: 2.5;
@@ -23,32 +49,63 @@ a:hover {
   padding: 10px 0px 10px 0px;
 }
 
-#banner{
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  background: #ffffff;
-}
-#test{
+#gitHub{
   color: black;
 }
 
-#test:hover{
-  color: grey;
+#gitHub:hover{
+  font-weight: bolder;
+  font-size: 18px;
 }
 
-#project{
-  position: relative;
-}
 
-img:hover {
- opacity: 0.5;
+
+#projectImage:hover {
+ filter:brightness(80%) saturate(100%) contrast(110%);
+ border: 5px solid black;
+ 
 }
 
 h1 {
   font-weight: bolder;
 }
 
+
 #about{
   font-size: 20px;
+}
+
+#projectImage {
+  max-width: 480px;
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.col-sm {
+  margin-top: 10px;
+}
+
+#project {
+  margin-bottom: 25px;
+}
+
+#about {
+  background: #ffffff;
+
+}
+
+#aboutImage {
+  filter: saturate(20%) contrast(140%);
+}
+
+#bottom {
+  font-style: italic;
+}
+
+#description{
+  float: right;
+}
+
+#pug{
+  width: 360px;
 }
