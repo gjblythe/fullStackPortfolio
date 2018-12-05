@@ -89,11 +89,6 @@ h1 {
   margin-bottom: 25px;
 }
 
-#about {
-  background: #ffffff;
-
-}
-
 #aboutImage {
   filter: saturate(20%) contrast(140%);
 }
