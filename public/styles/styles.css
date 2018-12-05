@@ -51,14 +51,14 @@ p{
 
 #gitHub{
   color: black;
+  float: right;
+  font-size: 18px;
 }
 
 #gitHub:hover{
   font-weight: bolder;
-  font-size: 18px;
+  color: #666666;
 }
-
-
 
 #projectImage:hover {
  filter:brightness(80%) saturate(100%) contrast(110%);
@@ -97,8 +97,9 @@ h1 {
   font-style: italic;
 }
 
-#description{
-  float: right;
+#projectEach {
+  background: #ffffff;
+  margin-top: 20px;
 }
 
 #pug{
