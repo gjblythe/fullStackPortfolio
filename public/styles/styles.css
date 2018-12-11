@@ -76,7 +76,7 @@ h1 {
 }
 
 #projectImage {
-  max-width: 480px;
+  max-width: 100%;
   border: 2px solid black;
   margin-bottom: 5px;
 }
@@ -87,6 +87,11 @@ h1 {
 
 #project {
   margin-bottom: 25px;
+}
+
+#projectEach {
+  width: 100%;
+  margin: 0 50 0 0;
 }
 
 #aboutImage {
@@ -105,3 +110,5 @@ h1 {
 #pug{
   width: 360px;
 }
+
+@media only screen and (max-width: )

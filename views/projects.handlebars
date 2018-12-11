@@ -1,29 +1,31 @@
-<div id="project">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>{{msg}}</h1>
-            </div>
-        </div>
-        <div class="row">
-
-            {{#each examples}}
-            <div class="col" id="projectEach">
-                <br>
-                <h2>{{this.title}}</h2>
-
-                {{!-- added 12-3 --}}
-                <a id="deployed" target="_blank" href="{{this.href}}"><img id="projectImage" src="{{this.image}}"></a>
-
-                <br>
-                <div class="col">
-                    <p id="description">{{this.description}}</p>
-
-                    <a id="gitHub" target="_blank" href="{{this.repo}}">{{this.title}} <i class="fab fa-github"></i></a>
+<div class="container">
+    <div id="project">
+        <div class="clear">
+            <div class="row">
+                <div class="col-12">
+                    <h1>{{msg}}</h1>
                 </div>
-
             </div>
-            {{/each}}
+
+                {{#each examples}}
+            <div class="row">
+                <div class="col" id="projectEach">
+                    <br>
+                    <h2>{{this.title}}</h2>
+
+                    {{!-- added 12-3 --}}
+                    <a id="deployed" target="_blank" href="{{this.href}}"><img id="projectImage" src="{{this.image}}"></a>
+
+                    <br>
+                    <div class="col">
+                        <p id="description">{{this.description}}</p>
+
+                        <a id="gitHub" target="_blank" href="{{this.repo}}">{{this.title}} <i class="fab fa-github"></i></a>
+                    </div>
+
+                </div>
+            </div>
+                {{/each}}
         </div>
     </div>
 </div>
